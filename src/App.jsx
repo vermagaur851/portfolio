@@ -7,12 +7,22 @@ import Projects from "./section/projects/projects";
 
 function App() {
   return (
-    <div className="box">
-      <Hero />
-      <Projects />
-      <Skills />
-      <Contact/>
-      <Footer/>
+    <div>
+      <div className="box">
+        <Hero />
+      </div>
+      <div className="box">
+        <Projects />
+      </div>
+      <div className="box">
+        <Skills />
+      </div>
+      <div className="box">
+        <Contact />
+      </div>
+      <div className="box">
+        <Footer />
+      </div>
     </div>
   );
 }
