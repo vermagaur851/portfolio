@@ -4,18 +4,18 @@
   --btn-text-color: #fff;
   --project-card-bg: black;
   --text-color: #222;
-  --from-text-color: #555;
+  --form-text-color: #555;
   --footer-text-color: #888;
 }
 
 [data-theme="dark"] {
-  --background-color: rgb(154, 154, 154);
+  --background-color: #222;
   --btn-color: #fff;
-  --btn-text-color: hsl(0, 0%, 0%);
+  --btn-text-color: #222;
   --project-card-bg: #fff;
   --text-color: #fff;
-  --from-text-color: #fff;
-  --footer-text-color: #bbb;
+  --form-text-color: #fff;
+  --footer-text-color: #888;
   --icon-color:  #fff;
 }
 
@@ -23,13 +23,12 @@ body {
   background-color: var(--background-color);
   display: flex;
   justify-content: center;
-  margin: 0 auto 60px;
+  margin: 100px auto 60px;
 }
 
 #root {
   display: flex;
   flex-direction: column;
-  gap: 60px;
 }
 
 h1,
@@ -73,4 +72,40 @@ p {
 
 .hover{
     cursor: pointer;
+}
+
+@media(width>=800px){
+  #root{
+    gap: 100px;
+  }
+  h1{
+    font-size: 40px;
+  }
+  h2,h3{
+    font-size: 24px;
+  }
+  p{
+    font-size: 20px;
+  }
+  .sectionTitle{
+    margin-bottom:60px ;
+  }
+}
+
+@media(width>=1400px){
+  #root{
+    gap: 200px;
+  }
+  h1{
+    font-size: 48px;
+  }
+  h2,h3{
+    font-size: 24px;
+  }
+  p{
+    font-size: 20px;
+  }
+  .sectionTitle{
+    margin-bottom:75px ;
+  }
 }
