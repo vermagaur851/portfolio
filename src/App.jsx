@@ -7,13 +7,13 @@ import Projects from "./section/projects/projects";
 
 function App() {
   return (
-    <>
+    <div className="box">
       <Hero />
       <Projects />
       <Skills />
       <Contact/>
       <Footer/>
-    </>
+    </div>
   );
 }
 

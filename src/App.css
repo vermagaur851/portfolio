@@ -25,6 +25,10 @@ body {
   justify-content: center;
   margin: 100px auto 60px;
 }
+/* 
+.box{
+
+} */
 
 #root {
   display: flex;

@@ -11,20 +11,19 @@ function Skills() {
         <SkillList src={checkMarkIcon} cnt={"HTML"}/>
         <SkillList src={checkMarkIcon} cnt={"CSS"}/>
         <SkillList src={checkMarkIcon} cnt={"JavaScript"}/>
-        <SkillList src={checkMarkIcon} cnt={"TypeScript"}/>
-        <SkillList src={checkMarkIcon} cnt={"Node"}/>
+        <SkillList src={checkMarkIcon} cnt={"Tailwind"}/>
+        <SkillList src={checkMarkIcon} cnt={"React"}/>
       </div>
       <hr />
       <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} cnt={"React"}/>
-        <SkillList src={checkMarkIcon} cnt={"Angular"}/>
-        <SkillList src={checkMarkIcon} cnt={"Vue"}/>
-        <SkillList src={checkMarkIcon} cnt={"Tailwind"}/>
+        <SkillList src={checkMarkIcon} cnt={"Nodejs"}/>
+        <SkillList src={checkMarkIcon} cnt={"Expressjs"}/>
+        <SkillList src={checkMarkIcon} cnt={"MongoDB"}/>
+        <SkillList src={checkMarkIcon} cnt={"WebSocket"}/>
       </div>
       <hr />
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} cnt={"Redux"}/>
-        <SkillList src={checkMarkIcon} cnt={"Webpack"}/>
         <SkillList src={checkMarkIcon} cnt={"Github"}/>
         <SkillList src={checkMarkIcon} cnt={"Bootstrap"}/>
       </div>
