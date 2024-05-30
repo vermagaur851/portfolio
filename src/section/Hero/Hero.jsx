@@ -1,13 +1,13 @@
 import styles from "./herostyles.module.css";
 import heroimage from "../../assets/me.jpg";
-import sun from "../../assets/sun3.svg";
-import moon from "../../assets/moon_icon.svg";
-import twitterlight from "../../assets/twitter light.svg";
-import twitterdark from "../../assets/twitter dark.svg";
-import githublight from "../../assets/github light.svg";
-import githubdark from "../../assets/github dark.svg";
-import LinkedInlight from "../../assets/linkedinlight.png";
-import LinkedIndark from "../../assets/linkedin-dark.svg";
+import sun from "../../assets/social-icons/sun3.svg";
+import moon from "../../assets/social-icons/moon_icon.svg";
+import twitterlight from "../../assets/social-icons/twitter light.svg";
+import twitterdark from "../../assets/social-icons/twitter dark.svg";
+import githublight from "../../assets/social-icons/github light.svg";
+import githubdark from "../../assets/social-icons/github dark.svg";
+import LinkedInlight from "../../assets/social-icons/linkedIn light.svg";
+import LinkedIndark from "../../assets/social-icons/linkedin-dark.svg";
 import CV from "../../assets/resume.pdf";
 import { useTheme } from "../../common/themeContext";
 
