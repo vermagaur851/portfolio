@@ -10,8 +10,9 @@ function Projects() {
         <ProjectCard
           src={Tictactoe}
           lnk={"https://vermagaur851.github.io/tic-tac-toe-game/"}
-          heading={"GAME"}
-          description={"AI algo based tic tac toe"}
+          heading={"Unbeatable TicTacToe"}
+          description={`Built using HTML, CSS and JavaScript, for unbeatable purpose I have used minimax Algo with α-β Pruning`}
+          git={"https://github.com/vermagaur851/tic-tac-toe-game"}
         />
       </div>
     </section>
