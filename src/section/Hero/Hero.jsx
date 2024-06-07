@@ -11,6 +11,8 @@ import LinkedIndark from "../../assets/social-icons/linkedin-dark.svg";
 import CV from "../../assets/resume.pdf";
 import { useTheme } from "../../common/themeContext";
 
+<a target=""></a>
+
 function Hero() {
   const {theme, toggleTheme} = useTheme();
 
