@@ -1,6 +1,8 @@
 import styles from "./projects.module.css";
 import Tictactoe from "../../assets/tictactoe.webp";
+import Music_Institute from '../../assets/music institute.png'
 import ProjectCard from "../../common/ProjectCard";
+
 
 function Projects() {
   return (
@@ -13,6 +15,13 @@ function Projects() {
           heading={"Unbeatable TicTacToe"}
           description={`Built using HTML, CSS and JavaScript, for unbeatable purpose I have used minimax Algo with α-β Pruning`}
           git={"https://github.com/vermagaur851/tic-tac-toe-game"}
+        />
+        <ProjectCard
+          src={Music_Institute}
+          lnk={"https://music-app-rose-zeta.vercel.app/"}
+          heading={"Website for Music Institute"}
+          description={"This website is created using Nextjs and Aceternity UI.This website is mostly a showcase of UI/UX skill in Nextjs"}
+          git={"https://github.com/vermagaur851/music-app"}
         />
       </div>
     </section>

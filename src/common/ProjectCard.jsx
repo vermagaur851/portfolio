@@ -1,10 +1,11 @@
 import React from "react";
+import './projectCard.css'
 
 function ProjectCard({ src, lnk, heading, description, git }) {
   return (
     <div>
       <a href={lnk} target="_blank">
-        <img src={src} alt="" />
+        <img className="yeti" src={src} alt="" />
       </a>
       <h3>{heading}</h3>
       <p>{description}</p>

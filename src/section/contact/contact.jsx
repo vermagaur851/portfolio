@@ -82,7 +82,7 @@ function Contact() {
             value={message}
           ></textarea>
         </div>
-        <input readOnly={wait} type="submit" value="Submit" className="hover btn" />
+        <input readOnly={wait} type="submit" value="Submit"  className="hover btn" />
       </form>
       <ToastContainer/>
     </section>
